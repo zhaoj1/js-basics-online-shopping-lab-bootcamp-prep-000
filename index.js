@@ -52,12 +52,8 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here"
-  console.log("That item is not in your cart.");
-  for(let i = 0; i < cart.length; i++){
-    if(cart[i].hasOwnProperty(item)){
-      cart = [...cart.splice(0,i),...cart.splice(i+1)];
-      return cart;
-    }
+  for(let i = 0; i<cart.length;i++){
+    if(cart[i].)
   }
 }
 
