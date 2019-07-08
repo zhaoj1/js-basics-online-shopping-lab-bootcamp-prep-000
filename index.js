@@ -51,8 +51,10 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
-  console.log(cart.includes(item))
+  // write your code here"
+  if(cart.includes(item)){
+    
+  }
 }
 
 
