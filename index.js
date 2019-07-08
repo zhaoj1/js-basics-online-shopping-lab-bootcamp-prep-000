@@ -53,7 +53,12 @@ function total() {
 function removeFromCart(item) {
   // write your code here"
   if(cart.includes(item)){
-    
+    for(let i = 0; i < cart.length; i++){
+      
+    }
+  }
+  else{
+    console.log("That item is not in your cart.")
   }
 }
 
